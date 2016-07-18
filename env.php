@@ -2,7 +2,7 @@
 
 /**
  * This env_config variable are created for easier changes between environtment within the development cycle
- * Server side will have its own env_config file thus this file is ignored when pushing to github. 
+ * Server side will have its own env_config file thus this file is to be changed or deleted when pushing to production. 
  */
 $env_config = [
 	'site_url'		=>	'localhost/wp_template/', //url for the backend/admin page
